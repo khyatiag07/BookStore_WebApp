@@ -16,7 +16,7 @@ function Contact() {
                     <input
                         type="text"
                         placeholder="Enter your name"
-                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500"
+                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500 bg-white dark:bg-gray-700 dark:text-white"
                         {...register("name", { required: "Name is required" })}
                     />
                     {errors.name && <span className="text-sm text-red-500">{errors.name.message}</span>}
@@ -28,7 +28,7 @@ function Contact() {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500"
+                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500 bg-white dark:bg-gray-700 dark:text-white"
                         {...register("email", { required: "Email is required" })}
                     />
                     {errors.email && <span className="text-sm text-red-500">{errors.email.message}</span>}
@@ -39,7 +39,7 @@ function Contact() {
                     <label className="block text-md font-xl mb-1">Message</label>
                     <textarea
                         placeholder="Enter your message"
-                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500"
+                        className="w-full px-3 py-2 border rounded-md outline-none focus:ring-2 focus:ring-pink-500 bg-white dark:bg-gray-700 dark:text-white"
                         {...register("message", { required: "Message is required" })}
                     ></textarea>
                     {errors.message && <span className="text-sm text-red-500">{errors.message.message}</span>}

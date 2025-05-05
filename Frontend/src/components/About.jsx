@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-50 dark:bg-slate-900 dark:text-white">
-                <h1 className="mt-12 text-4xl font-bold mb-4 text-center text-pink-600">About Our Online Book Store</h1>
+                <h1 className="mt-24 text-4xl font-bold mb-4 text-center text-pink-600">About Our Online Book Store</h1>
                 <p className="mt-4 text-lg mb-6 max-w-3xl text-center">
                     Welcome to our online book store, your one-stop platform for discovering and reading a vast collection of books.
                     Our application is designed to provide an exceptional reading experience, whether you're at home or on the go.
